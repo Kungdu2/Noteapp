@@ -18,7 +18,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.noteapp.ui.theme.NoteAppTheme
+
+
 
 data class Note(
     val id: Int,
@@ -36,7 +37,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-//hej
+
 
 @Composable
 fun NoteApp() {
@@ -76,3 +77,6 @@ fun addote(navContoller: NavController, notes: MutableList<Note>) {
 fun NoteDetail(navContoller: NavController, it: Note) {
 
 }
+
+
+
